@@ -424,23 +424,13 @@ export function TodoForm({
                                 <FormLabel>Image</FormLabel>
                                 <div className="mt-2">
                                     {imagePreview ? (
-                                        <div className="relative inline-block">
-                                            <Image
+                                        <div className="mt-3">
+                                            {/** biome-ignore lint/performance/noImgElement: <it's okay to use img element> */}
+                                            <img
                                                 src={imagePreview}
                                                 alt="Preview"
-                                                width={400}
-                                                height={200}
                                                 className="max-w-full h-auto rounded-md max-h-48 object-cover"
                                             />
-                                            <Button
-                                                type="button"
-                                                variant="destructive"
-                                                size="sm"
-                                                className="absolute top-2 right-2"
-                                                onClick={removeImage}
-                                            >
-                                                <X className="h-4 w-4" />
-                                            </Button>
                                         </div>
                                     ) : (
                                         <div className="border-2 border-dashed border-gray-300 rounded-md p-6 text-center">
@@ -508,8 +498,8 @@ export function TodoForm({
                                         ? "Updating..."
                                         : "Creating..."
                                     : initialData
-                                      ? "Update Todo"
-                                      : "Create Todo"}
+                                        ? "Update Todo"
+                                        : "Create Todo"}
                             </Button>
                         </div>
                     </form>

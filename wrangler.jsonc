@@ -19,15 +19,14 @@
         {
             "binding": "next_cf_app",
             "database_name": "next-cf-app",
-            "database_id": "757a32d1-5779-4f09-bcf3-b268013395d4",
+            "database_id": "a4a8b85e-e9eb-4d8a-9cca-c53af8b4f125",
             "migrations_dir": "./src/drizzle"
         }
     ],
     "r2_buckets": [
         {
             "bucket_name": "next-cf-app-bucket",
-            "binding": "next_cf_app_bucket",
-            "preview_bucket_name": "next-cf-app-dev-bucket"
+            "binding": "next_cf_app_bucket"
         }
     ],
     "vectorize": [

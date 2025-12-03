@@ -18,7 +18,7 @@ export default async function Dashboard() {
                 </h1>
                 <p className="text-xl text-gray-600 max-w-2xl mx-auto">
                     A simple and elegant todo application built with Next.js 15,
-                    TailwindCSS, and shadcn/ui components.xzxzxz
+                    TailwindCSS, and shadcn/ui components.xzxzxzdasdasdad
                 </p>
             </div>
 

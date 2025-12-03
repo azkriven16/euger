@@ -37,34 +37,6 @@
     ],
     "ai": {
         "binding": "AI"
-    },
-    "env": {
-        "preview": {
-            "name": "next-cf-app-preview",
-            "d1_databases": [
-                {
-                    "binding": "next_cf_app",
-                    "database_name": "next-cf-app",
-                    "database_id": "a4a8b85e-e9eb-4d8a-9cca-c53af8b4f125",
-                    "migrations_dir": "./src/drizzle"
-                }
-            ],
-            "r2_buckets": [
-                {
-                    "binding": "next_cf_app_bucket",
-                    "bucket_name": "next-cf-app-bucket-preview"
-                }
-            ],
-            "vectorize": [
-                {
-                    "binding": "VECTORIZE",
-                    "index_name": "next-cf-app-index-preview"
-                }
-            ],
-            "ai": {
-                "binding": "AI"
-            }
-        }
     }
     /**
      * Smart Placement
